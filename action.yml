@@ -22,7 +22,7 @@ inputs:
   words:
     description: 'Reply content when closing.'
     required: false
-    default: 'Please file the issue after you starred and forked the repo. Thanks! 🙂'
+    default: 'Please kindly star the repo if it could provide help to you. Thanks! 🙂'
 runs:
   using: 'docker'
   image: 'Dockerfile'
