@@ -42,10 +42,7 @@ Future<void> check() async {
       (Constants.isStarRequired && !isStarred)) {
     final bool isCommented = await tips();
     if (isCommented) {
-      final bool isClosed = await close();
-      if (isClosed) {
-        await lock();
-      }
+      print('Star tips are created!');
     }
   }
 }

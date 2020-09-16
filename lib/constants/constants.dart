@@ -22,5 +22,6 @@ class Constants {
   static String get fullRepoName => event.repository.full_name;
   static bool isForkRequired;
   static bool isStarRequired;
-  static String words = 'Please file the issue after you starred and forked the repo. Thanks! 🙂';
+  static String words =
+      'Please kindly star the repo if it could provide help to you. Thanks! 🙂';
 }
